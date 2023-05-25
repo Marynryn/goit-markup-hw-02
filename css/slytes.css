@@ -18,16 +18,14 @@ body {
         text-transform: uppercase;
         letter-spacing: 0.03em;
         color: var(--logo-color);
-        
-}
-
+       
 }
 .link
- {
-    text-decoration: none;
+{
+text-decoration:none;
 }
 .list {
-    list-style: none;
+list-style:none;
 }
 .header {}
 
@@ -35,15 +33,18 @@ body {
     
 }
 
-.logo {}
+.logo.link {
+    text-decoration: none;}
 
 .logo-web {
     color: var(--main-title-color);
 }
+.logo-web-footer{
+    color: var(--footer-text-color);
+}
 
-
-.header-nav-link:hover
-.header-nav-link:focus
+.nav-link:hover
+.nav-link:focus
 {
     color:#404BBF
 }
@@ -55,7 +56,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-title-color) ;
 }
-
+.nav-link.link{
+    text-decoration: none;
+}
 .address{
 font-style: normal;
 }
@@ -71,7 +74,9 @@ font-style: normal;
 .address-link:hover {
     color:#404BBF;
 }
-
+.address-link.link{
+    text-decoration: none;
+}
 .hero {
     background-color:var(--main-title-color);
 }
